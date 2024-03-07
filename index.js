@@ -4,5 +4,5 @@ var boton = document.getElementById('miBoton');
 // Agrega un escuchador de eventos al botón
 boton.addEventListener('click', function() {
   // Redirige a la página deseada al hacer clic en el botón
-  window.location.href = 'index.html';
+  window.location.href = 'detector.html';
 });
