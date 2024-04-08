@@ -8,11 +8,52 @@
 main {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
+  max-width: 800px; /* Ajusta según sea necesario */
+  margin: auto; /* Centra el contenido horizontalmente */
 }
 
 body {
   background-color:#182052;
+  overflow: hidden;
+  overflow-y: auto;
 }
+
+/* Agrega una clase para el contenedor de las imágenes de adorno */
+.imagenes-de-adorno {
+  position: absolute; /* o absolute, según tus necesidades */
+  pointer-events: none; /* Evita que las imágenes interfieran con el contenido */
+}
+
+/* Ajusta la opacidad y el tamaño de las imágenes según tus necesidades */
+.imagen-1 {
+  position: absolute;
+  width: 150px;
+  bottom: -700px;
+  left: 1250px;
+}
+
+.imagen-2 {
+
+  position: absolute;
+  width: 150px;
+  top: 650px;
+  left: 30px;
+}
+
+.imagen-3 {
+  position: absolute;
+  width: 150px;
+  top: 50px;
+  left: 1300px;
+}
+
+.imagen-4 {
+  position: absolute;
+  width: 120px;
+  top: 40px;
+  left: 270px;
+}
+
 
 p {
   color:aliceblue;
